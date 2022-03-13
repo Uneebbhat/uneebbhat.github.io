@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #181818;
+  position: fixed !important;
+  top: 0px;
+  left: 0px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 12rem;
+  padding-bottom: 0.5rem;
+  width: 125px;
+  height: 100vh;
+}
+
+.about.active{
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #fff, 0 0 82px #fff,
+  0 0 92px #fff;
+}
+
+.list {
+  position: absolute;
+  font-family: "Fredoka", sans-serif;
+  margin-left: -17px;
+  margin-top: -225px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  padding: 5vh;
+  padding-left: 7.5vh;
+  animation-name: uneeb1;
+  animation-duration: 1s;
+}
+
+@keyframes uneeb1 {
+  from{
+    margin-left: -166px;
+  }
+  to{
+    margin-left: -17px;
+  }
+}
+
+.home {
+  text-decoration: none;
+  color: white;
+  padding-left: 0px;
+  padding-bottom: 10vh;
+
+}
+
+.about {
+  padding-right: 0px;
+  padding-bottom: 40px;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.contact {
+  position: absolute;
+  padding-left: 0px;
+  padding-top: 20px;
+  color: white;
+}
+
+.home:hover {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #fff, 0 0 82px #fff,
+    0 0 92px #fff;
+  color: white;
+  cursor: default;
+  font-weight: bolder;
+}
+
+.about:hover {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #fff, 0 0 82px #fff,
+    0 0 92px #fff;
+  color: white;
+  cursor: default;
+  font-weight: bolder;
+}
+
+.contact:hover {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #fff, 0 0 82px #fff,
+    0 0 92px #fff;
+  color: white;
+  cursor: default;
+  font-weight: bolder;
+  padding-left: 0px;
+  padding-top: 20px;
+}
+
+.main-text {
+  font-family: "Fredoka", sans-serif;
+  border-color: #191b1e;
+  height: 100vh;
+}
+
+.heading{
+  animation-name: uneeb2;
+  animation-duration: 1s;
+}
+
+@keyframes uneeb2 {
+  from{
+    margin-left: -660px;
+    opacity: 0%;
+  }
+  to{
+    margin-left: 27vh;
+    opacity: 100%;
+  }
+}
+
+.heading {
+  padding-top: 10vh;
+  font-weight: 600;
+}
+
+.para {
+  margin-left: 25vh;
+  font-weight: 500;
+  text-align: start;
+  animation-name: uneeb3;
+  animation-duration: 1s;
+  animation-delay: 0.05s;
+}
+
+@keyframes uneeb3 {
+  from{
+    margin-left: -660px;
+    opacity: 0%;
+  }
+  to{
+    margin-left: 27vh;
+    opacity: 100%;
+  }
+}
+
+.main-text{
+  font-family: 'Roboto Mono', monospace;
+  background-color: #1d1d1d;
+  color: white;
+  height: 100vh;
+}
+
+.heading{
+  padding-top: 30vh;
+  margin-left: 27vh;
+  font-weight: 60;
+}
+
+.heading:hover{
+/* color: dodgerblue; */
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #fff, 0 0 82px #fff,
+0 0 92px #fff;
+}
+
+.para{
+  padding-top: -7vh;
+  margin-left: 27vh;
+  text-align: start;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.para:hover{
+/* color: dodgerblue; */
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #fff, 0 0 82px #fff,
+0 0 92px #fff;
+}
+
+.para2:hover{
+/* color: dodgerblue; */
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #fff, 0 0 82px #fff,
+0 0 92px #fff;
+}
+
+.para2{
+  padding-top: -7vh;
+  margin-left: 27vh;
+  text-align: justify; 
+  word-break: break-all; 
+  font-size: 1.2rem;
+  animation-name: uneeb4;
+  animation-duration: 1s;
+  animation-delay: 0.005s;
+}
+
+@keyframes uneeb4 {
+from{
+  margin-left: -660px;
+  opacity: 0%;
+}
+to{
+  margin-left: 27vh;
+  opacity: 100%;
+}
+}
+
+.btn-primary{
+  margin-left: 30vh;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.15rem;
+  background-color: dodgerblue;
+  border-color: dodgerblue;
+  border-radius: 22px;
+  padding: 9px 14px;
+}
+
+.btn-primary:hover{
+  box-shadow: 0px 0px 20px 10px;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #fff, 0 0 82px #fff,0 0 92px #fff;
+  background-color: dodgerblue;
+  border-color: dodgerblue;
+  border-radius: 22px;
+  transition-property: all;
+  transition-duration: .25s;
+}
+
+.btn1{
+margin-left: 5vh;
+color: #fff;
+font-weight: bold;
+font-size: 1.15rem;
+background-color: dodgerblue;
+border-color: dodgerblue;
+border-radius: 22px;
+padding: 9px 14px;
+}
+
+.btn1:hover{
+box-shadow: 0px 0px 20px 10px;
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #fff, 0 0 82px #fff,0 0 92px #fff;
+background-color: dodgerblue;
+border-color: dodgerblue;
+border-radius: 22px;
+transition-property: all;
+transition-duration: .5s;
+}
+
+.btn{
+animation-name: uneeb5;
+animation-duration: 1s;
+animation-delay: 0.0010m;
+}
+
+@keyframes uneeb5 {
+from{
+  margin-left: -660px;
+  opacity: 0%;
+}
+to{
+  margin-left: 30vh;
+  opacity: 100%;
+}
+}
+
+.btn1{
+animation-name: uneeb6;
+animation-duration: 1s;
+animation-delay: 0.005s;
+}
+
+@keyframes uneeb6 {
+from{
+  margin-left: -660px;
+  opacity: 0%;
+}
+to{
+  margin-left: 5vh;
+  opacity: 100%;
+}
+}
+

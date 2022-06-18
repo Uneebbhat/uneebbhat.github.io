@@ -6,16 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media="screen and (max-width:460px)" href="css/phone.css">
-
-    <title>Portfolio | Home</title>
+    <title>Uneeb. | Home</title>
 </head>
 
 <body>
     <nav class="navbar">
-        <a href="index.html">
-            <div class="brand-title">Uneeb Bhatti</div>
-        </a>
+        <div class="brand-title"><a href="index.html">Uneeb.</a></div>
         <a href="#" class="toggle-button">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -23,32 +19,112 @@
         </a>
         <div class="navbar-links active">
             <ul>
-                <li><a class="home active1" href="index.html">Home</a></li>
-                <li><a class="about" href="about.html">About</a></li>
-                <li><a class="contact" href="contact.html">Contact</a></li>
+                <li><a href="#home" class="home active">Home</a></li>
+                <li><a href="#about" class="about active">About</a></li>
+                <li><a href="#service" class="service active">Services</a></li>
+                <li><a href="#contact" class="contact active">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <div class="container">
-        <span class="firstSpan">
-            <h1>Hi,</h1>
-        </span>
-        <span class="secondSpan" id="secspan">
-            <h1>I am <span class="uneeb" id="myName">Uneeb</span></h1>
-        </span>
-        <span class="thirdSpan">
-            <h1 class="head">Bhatti</h1>
-        </span>
-        <!-- <p class="fifthSpan">I am a web developer and graphic designer</p> -->
-        <p class="fifthSpan">I am a <span id="change"></span></p>
-        <span class="button">
-            <a href="contact.html" target="blank"><button type="button" class="btn btn-primary btn-sm">Hire
-                    Me</button></a>
-            <a href="pdf/uneeb.pdf" target="blank"><button type="button" class="btn btn-secondary btn-sm">Download
-                    CV</button></a>
-        </span>
-    </div>
+    <!-- HOME SECTION -->
+    <section id="home">
+        <div class="welcome">
+            <p class="welMy">welcome to my</p>
+            <p class="port">PORTFOLIO</p>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <div class="mainInfo">
+            <img class="me" src="img/me.png" alt="">
+            <h1 class="name">Hi! I'm Uneeb Bhatti</h1>
+            <p>I'm a Freelance Web Developer with 2+ years of</p>
+            <p>experience. My specialty is in Front-End Web</p>
+            <p>Development. I enjoy working with Html, Css & </p>
+            <p>JavaScript.</p>
+
+            <div class="skills">
+                <h1>Skills & Description</h1>
+                <div class="main">
+                    <div class="desc">
+                        <p>I like the concept of turning innovative ideas into reality with the power of code, and with
+                            a strong passion for my work, I like to work with creative and passion-driven businesses and
+                            individuals by helping them in their web-related problems with effective solutions.</p>
+                    </div>
+                    <div class="image">
+                        <img src="img/skill.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SERVISES SECTION -->
+    <section id="service">
+        <div class="services">
+            <h1>Services I provide</h1>
+            <div class="wrapper">
+                <div class="left">
+                    <h1 class="conversion">Conversion Centric Website Development & SEO</h1>
+                    <p>In this package, I provide a Conversion Centric Website and Search Engine Optimization.
+                    </p>
+                    <br>
+                    <br>
+                    <p>A Conversion Centric Website, according to your business goals, that will help you to get
+                        more sales and customers.</p>
+                    <br>
+                    <br>
+                    <p>Search Engine Optimization, so that every time a client search for your business online,
+                        your business appears on the 1st page of the search result. Appearing on the 1st page of
+                        the search result = more clients will reach your business = more sales.</p>
+                </div>
+
+                <div class="right">
+                    <h1 class="custom">Custom Coded Solutions</h1>
+                    <p>In this package, I provide Custom Coded Solutions for your web-related problems.
+                    </p>
+                    <br>
+                    <br>
+                    <p>My specialty is in Frontend Web Development. I know to work with the technologies like
+                        Html, Css & JavaScript</p>
+                    <br>
+                    <br>
+                    <p>Whether you want an application that is based upon fetch Apis or you want custom coded
+                        web designs with cool animation or any other Frontend related work, I can do it for you.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <div class="contactMe">
+            <h1>Let's Connect!</h1>
+            <p>Please send me an email and I'll try to get back to you as soon as possible 🙂</p>
+            <p>Email Address: uneebbhatti159@gmail.com.</p>
+
+            <form>
+                <div class="form-group">
+                    <input type="text" id="name" class="name" placeholder="Name">
+                    <br>
+                    <br>
+                    <input type="email" id="email" placeholder="Email">
+                    <br>
+                    <br>
+                    <textarea id="message" class="message" cols="32" rows="10" placeholder="Message"></textarea>
+                    <br>
+                    <br>
+                    <button class="button-19 btn" role="button">SUBMIT</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
 </body>
 <script src="js/index.js"></script>
 

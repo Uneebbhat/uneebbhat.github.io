@@ -1,30 +1,14 @@
-const toggleButton = document.getElementsByClassName('toggle-button')[0];
-const navbarLinks = document.getElementsByClassName('navbar-links')[0];
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
 toggleButton.addEventListener('click', () => {
-    navbarLinks.classList.toggle('active');
+    navbarLinks.classList.toggle('active')
     console.log('clicked');
-});
+})
 
-show = () => {
-    document.getElementById('change').innerHTML = '<b>web developer</b>';
-}
+setTimeout(() => {
+    document.getElementById('content').innerHTML = '<h3>This is an h3 heading</h3>'
+}, 2000);
 
-show2 = () => {
-    document.getElementById('change').innerHTML = '<b>graphic designer</b>';
-}
-
-setInterval(show, 2000);
-setInterval(show2, 4000);
-
-
-comp = () => {
-    document.getElementById('comp').innerHTML = '<b>Service Shoes</b>';
-}
-
-comp2 = () => {
-    document.getElementById('comp').innerHTML = '<b>Wellcreator</b>';
-}
-
-setInterval(comp, 2000);
-setInterval(comp2, 4000);
+var str = 'this is a string';
+console.log(str);
